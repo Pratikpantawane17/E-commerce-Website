@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Cart - RedStore </title>
+    <link rel="stylesheet" href="E-Commerce.css">
+
+    <!-- For Font of our Website -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- In order to get css for star (used in product) ⭐ -->
+    <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+     <!-- For adding Icons into Footer -->
+     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+
+
+</head>
+<body>  
+
+    <div class="container">
+
+        <div class="navbar">
+            <div class="logo">
+                <a href="E-Commerce.html"><img src="logo.png" alt="Logo" width="125px"></a>
+            </div>
+
+            <nav>
+                <ul id="MenuItems">
+                    <li> <a href="E-Commerce.html"> Home </a> </li>
+                    <li> <a href="All_products.html"> Products </a> </li>
+                    <li> <a href=""> About </a> </li>
+                    <li> <a href=""> Contact </a> </li>
+                    <li> <a href="account.html"> Account </a> </li>
+                </ul>
+            </nav>
+
+
+            <!-- 👆🏻 Or directly create a div and add a tag to it... -->
+
+            <a href="cart.html"><img src="cart.png" width="30px" height="30px"></a> 
+            <img src="menu.png" class="menu-icon" onclick="menutoggle()">
+
+        </div>
+
+    </div>
+
+    <!---------- Cart items details----------->
+
+    <div class="small-container cart-page">
+
+        <table>
+            <tr>
+                <th>Product</th>
+                <th>Quantity</th>
+                <th>Subtotal</th>
+            </tr>
+
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="buy-1.jpg">
+                        <div>
+                            <p>Red Printed T-Shirt</p>
+                            <small> Price : &dollar;49.00 </small> <br>
+                            <a href=""> Remove </a>
+                        </div>
+                    </div>
+                </td>
+
+                <td><input type="number" value="1"></td>
+                <td> <p>&dollar;49.00</p> </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="buy-2.jpg">
+                        <div>
+                            <p>HRX Sport Shoes</p>
+                            <small> Price : &dollar;99.00 </small> <br>
+                            <a href=""> Remove </a>
+                        </div>
+                    </div>
+                </td>
+                
+                <td><input type="number" value="1"></td>
+                <td> <p>&dollar;99.00</p> </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="buy-3.jpg">
+                        <div>
+                            <p>HRX Gray Tackpants</p>
+                            <small> Price : &dollar;39.00 </small> <br>
+                            <a href=""> Remove </a>
+                        </div>
+                    </div>
+                </td>
+                
+                <td><input type="number" value="1"></td>
+                <td> <p>&dollar;39.00</p> </td>
+            </tr>
+
+
+        </table>
+
+
+        <div class="total-price">
+
+            <table>
+                <tr>
+                    <td>Subtotal</td>
+                    <td> <p> &dollar;187.00</p> </td>
+                </tr>
+                <tr>
+                    <td>Tax</td>
+                    <td> <p>&dollar;13.00</p> </td>
+                </tr>
+                <tr>
+                    <td>Total</td>
+                    <td> <p>&dollar;200.00</p> </td>
+                </tr>
+    
+            </table>
+    
+        </div>
+
+
+    </div>
+
+    
+
+
+
+
+
+
+    <!-- Footer -->
+    <div class="footer">
+        <div class="container">
+            
+            <div class="row">
+
+                <div class="footer-col-1">
+                    <h3> Download our App </h3>
+                    <p>Download App for Android and iOS</p>
+
+                    <div class="app-logo">
+                        <img src="play-store.png">
+                        <img src="app-store.png">
+                    </div>
+
+                </div>
+
+                <div class="footer-col-2">
+                    <img src="logo-white.png">
+                    <p>Our Purpose is to Sustainably Make the Pleasure and Benefits of Sports Accessible to the Many. </p>
+                </div>
+
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>John Affiliate</li>
+                    </ul>
+                </div>
+
+                <div class="footer-col-4">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li><i class="fa-brands fa-facebook"></i>
+                            Facebook</li>
+                        <li><i class="fa-brands fa-twitter"></i> Twitter</li>
+                        <li><i class="fa-brands fa-instagram"></i> Instagram</li>
+                        <li> <i class="fa-brands fa-youtube"></i> YouTube</li>
+                    </ul>
+                </div>
+
+            </div>
+            
+            <hr>
+            <p class="copyright"> Copyright &copy; 2021 - Red Store </p>
+
+        </div>
+    </div>
+
+
+    <!-- JS for Toggle Menu -->
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+
+        MenuItems.style.maxHeight = "0px";
+        
+        function menutoggle() {
+            if(MenuItems.style.maxHeight == "0px") {
+                MenuItems.style.maxHeight = "200px";
+            }
+            else {
+                MenuItems.style.maxHeight = "0px";
+            }
+        }
+
+    </script>
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Product Details */
+.big-image {
+    flex-basis: 50%;
+}
+
+.big-image img {
+    width: 100%;
+}
+
+.small-image {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.small-image img {
+    width: 24%;
+}
+
+.product-details .footer-col-1 {
+    justify-content: space-evenly;
+    margin: 0px;
+}
+
+
+
+
+
+
