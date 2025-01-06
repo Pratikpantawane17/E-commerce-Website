@@ -50,17 +50,6 @@ A fully responsive **E-commerce website** built using **HTML**, **CSS**, and **J
 - **CSS3**: Styling and responsiveness using flexbox, grid, and media queries.
 - **JavaScript**: For dynamic functionalities like cart operations, user interactions, and filtering.
 
-## 📂 Project Structure
-e-commerce-website/
-├── index.html         # Homepage file
-├── products.html      # Product listing page
-├── product-details.html  # Product details page
-├── cart.html          # Shopping cart page
-├── login.html         # User authentication page
-├── style.css          # Global styles
-├── script.js          # Dynamic functionalities
-└── README.md          # Project documentation
-
 <br>
 
 ## 🤝 Contributions
