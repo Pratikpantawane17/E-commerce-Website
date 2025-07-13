@@ -6,6 +6,15 @@
 
 A fully responsive **E-commerce website** built using **HTML**, **CSS**, and **JavaScript**. Designed with a user-friendly interface and packed with essential features to provide a seamless online shopping experience.
 
+---
+
+## 🔗 Live Demo
+
+👉 Check out the deployed site here:  
+🌐 **[redstore-e-commerce-platform.netlify.app](https://redstore-e-commerce-platform.netlify.app/)**
+
+---
+
 ## 🌟 Features
 
 ### **1. Homepage Design**
@@ -44,7 +53,9 @@ A fully responsive **E-commerce website** built using **HTML**, **CSS**, and **J
 
 <br>
 
-## 🛠️ Technologies Used : 
+---
+
+## 🛠️ Technologies Used
 
 - **HTML5**: Structure and layout of the application.
 - **CSS3**: Styling and responsiveness using flexbox, grid, and media queries.
@@ -52,13 +63,17 @@ A fully responsive **E-commerce website** built using **HTML**, **CSS**, and **J
 
 <br>
 
+---
+
 ## 🤝 Contributions
+
 Contributions are welcome! To contribute:
+
 1. Fork the repository.
 2. Create a feature branch:
    ```bash
    git checkout -b feature-name
-   ```
+   
 3. Commit your changes and push:
    ```bash
    git push origin feature-name
