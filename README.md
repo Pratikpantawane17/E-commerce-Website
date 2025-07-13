@@ -1,6 +1,6 @@
-# E-Commerce Website 
-
 <img src="logo.png">
+
+# E-Commerce Website 
 
 <br>
 
